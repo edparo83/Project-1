@@ -6,11 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Home</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container-fluid">
-                <div id="navbar" class="navbar-collapse collapse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div>
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Movies to See</a></li>
                         <li><a href="seen.html">Movies Seen</a></li>
@@ -21,27 +22,51 @@
             </div>
         </nav>
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-md-9 main">
                     <h3 class="page-header">Movies to See</h3>
-                    <ul>
-                        <li><input name="new-movie" type="text" placeholder="Enter a movie you want to see">
-                            <input name="add" type="submit" value="Add"></li>
-                        <li><label><input type="checkbox" name="movie-seen">At World's End</label></li>
-                        <li><label><input type="checkbox" name="movie-seen">The Big Lebowski</label></li>
-                        <li><input name="remove" type="submit" value="Remove"></li>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <input type="text" class="form-control" placeholder="Enter a movie you want to see">
+                            <button class="btn btn-primary" type="submit">Add</button>
+                        </li>
+                        <li class="list-group-item">
+                            <label>
+                                <input type="checkbox" name="movie-seen">At World's End
+                            </label>
+                        </li>
+                        <li class="list-group-item">
+                            <label>
+                                <input type="checkbox" name="movie-seen">The Big Lebowski
+                            </label>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn btn-primary" type="submit">Remove</button>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 sidebar">
-                    <h3>Friends</h3>
-                    <ul>
-                        <li><input name="friend" type="text" placeholder="Find a friend">
-                            <input name="add" type="submit" value="Add"></li>
-                        <li><label><input type="checkbox" name="friend">Queen Elizabeth I</label></li>
-                        <li><label><input type="checkbox" name="friend">Mr. Buga</label></li>
-                        <li><input name="remove" type="submit" value="Remove"></li>
+                    <h3 class="page-header">Friends</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <input type="text" class="form-control" placeholder="Find a friend">
+                            <button class="btn btn-primary" type="submit">Add</button>
+                        </li>
+                        <li class="list-group-item">
+                            <label>
+                                <input type="checkbox" name="friend">Queen Elizabeth I
+                            </label>
+                        </li>
+                        <li class="list-group-item">
+                            <label>
+                                <input type="checkbox" name="friend">Mr. Buga
+                            </label>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="btn btn-primary" type="submit">Remove</button>
+                        </li>
                     </ul>
                 </div>
             </div>

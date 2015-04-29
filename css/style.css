@@ -1,32 +1,12 @@
-* {
-    box-sizing: border-box;
-}
-/**
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+body {
+    padding-top: 50px;
 }
 
-.navbar a {
-    color: #5a5a5a;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 14px 10px;
-    text-transform: uppercase;
+ul {
+    list-style-type: none;
 }
 
-.navbar li {
-    display: inline;
+.list-group-item {
+    display: list-item;
+    border: #fff;
 }
-
-.sidebar {
-}
-
-.main {
-    position: fixed;
-    top: 51px;
-
-}
-**/
