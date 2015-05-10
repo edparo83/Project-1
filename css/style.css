@@ -1,0 +1,12 @@
+body {
+    padding-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-group-item {
+    display: list-item;
+    border: #fff;
+}
